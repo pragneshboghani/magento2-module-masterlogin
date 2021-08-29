@@ -30,11 +30,12 @@ bin/magento setup:upgrade
 After enable this module on store. There need to do some configuration. 
 
 Step 1 : 
-	Admin > System > Configuration > Customer > Master Password Configuration
+	Admin > System > Configuration > Customers > Master Password Configuration
 
 	Enable Module: Yes
 	Set Password : <password>
 
+![header image](https://raw.github.com/pragneshboghani/magento2-module-masterlogin/develop/masterlogin_config.png)
 
 ## License
 
