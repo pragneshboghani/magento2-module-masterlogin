@@ -24,7 +24,7 @@ composer require pragnesh/masterpassword
 bin/magento module:enable Pragnesh_MasterPassword
 bin/magento setup:upgrade
 ```
-:warning: This package is not installable via Composer 1.x, please make sure you upgrade to Composer 2+.!
+> :warning: This package is not installable via **Composer 1.x**, please make sure you upgrade to **Composer 2+**.!
 
 ## Configuration
 
