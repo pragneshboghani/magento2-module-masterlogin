@@ -13,7 +13,7 @@
 ## Table of contents
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Configuration](#configuration)
 - [License](#license)
 
 
