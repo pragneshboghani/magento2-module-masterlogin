@@ -1,5 +1,5 @@
 {
-    "name": "pragnesh/masterpassword",
+    "name": "pragneshboghani/magento2-module-masterlogin",
     "description": "Using this Magento module developers can log in to any customer account using a configured password.",
     "require": {
         "php": "^7.1",
