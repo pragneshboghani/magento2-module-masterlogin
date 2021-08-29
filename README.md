@@ -10,6 +10,9 @@
 </div>
 
 
+[![Latest Stable Version](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/v)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![Total Downloads](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/downloads)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![Latest Unstable Version](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/v/unstable)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![License](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/license)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin)
+
+
 ## Table of contents
 
 - [Installation](#installation)
