@@ -1,4 +1,4 @@
-<h1 align="center">magento2-module-masterlogin</h1> 
+<h1 align="center">Customer Master Password</h1> 
 
 <div align="center">
   <p>Using this Magento module developers can log in to any customer account using a configured password.</p>
@@ -24,6 +24,7 @@ composer require pragnesh/masterpassword
 bin/magento module:enable Pragnesh_MasterPassword
 bin/magento setup:upgrade
 ```
+:warning: **If you are using mobile browser**: Be very careful here!
 
 ## Configuration
 
