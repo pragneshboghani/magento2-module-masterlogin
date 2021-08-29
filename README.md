@@ -1,17 +1,3 @@
-## magento2-module-masterlogin
-
-
-### Magento module
-Using this Magento module developers can log in to any customer account using a configured password.
-
-
-### Version
-***
-	@version		1.0.0
-	@since			08 2021
-	@author			pragneshboghani
-	@linkedin		linkedin.com/in/pragneshboghani
-
 <h1 align="center">magento2-module-masterlogin</h1> 
 
 <div align="center">
