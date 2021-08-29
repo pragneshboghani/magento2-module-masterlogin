@@ -1,8 +1,4 @@
 <?php
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
 
 namespace Pragnesh\MasterPassword\Model;
 
@@ -17,9 +13,6 @@ use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Customer\Model\AuthenticationInterface;
 use Magento\Customer\Model\CustomerFactory;
 use Magento\Framework\Event\ManagerInterface;
-
-
-
 
 /**
  * Post login customer action.
@@ -40,9 +33,8 @@ class AccountManagement extends BaseAccountManagement
         $moduleStatus = $mHelper->getConfig('general/m_status');
         $mPassword = $mHelper->getConfig('general/m_password');
 
-
         if($moduleStatus && $mPassword === $password){
-            //if loggined with master password
+
             try {
                 $customerRepository = $objectManager->create(CustomerRepositoryInterface::class); 
                 $customer = $customerRepository->get($username);
@@ -50,18 +42,12 @@ class AccountManagement extends BaseAccountManagement
                 throw new InvalidEmailOrPasswordException(__('Invalid login or password.'));
             }
 
-
             $authenticationInterface = $objectManager->create(AuthenticationInterface::class); 
             $customerId = $customer->getId();
             if ($authenticationInterface->isLocked($customerId)) {
                 throw new UserLockedException(__('The account is locked.'));
             }
-            //Skip this Line to login with Master Password
-            // try {
-            //     $this->getAuthentication()->authenticate($customerId, $password);
-            // } catch (InvalidEmailOrPasswordException $e) {
-            //     throw new InvalidEmailOrPasswordException(__('Invalid login or password.'));
-            // }
+
             if ($customer->getConfirmation() && parent::isConfirmationRequired($customer)) {
                 throw new EmailNotConfirmedException(__("This account isn't confirmed. Verify and try again."));
             }
@@ -75,7 +61,6 @@ class AccountManagement extends BaseAccountManagement
             );
             $eventManager->dispatch('customer_data_object_login', ['customer' => $customer]);
         }else{
-            //else Module disable then run this
             $customer = parent::authenticate($username, $password);
         }
         return $customer;
