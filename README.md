@@ -11,29 +11,6 @@ Using this Magento module developers can log in to any customer account using a 
 	@since			08 2021
 	@author			pragneshboghani
 	@linkedin		linkedin.com/in/pragneshboghani
-	
-### Installation
-
-modman
-
-modman clone https://github.com/gaiterjones/magento-masterpassword.git
-
-manual
-
-Extract the module and copy the files to the /app folder of your magento installation. Refresh your cache, log out of admin and back in again.
-
-### Configuration
-
-Goto System – Configuration and select My Extensions – Master Password to access the configuration.
-
-Enter your master password in the Create Master Password MD5 hash text box to generate an MD5 hash of
-the password. Copy the MD5 hash to the Master Password MD5 text box and save the config. Note the plain
-text password is not saved.
-
-Test by logging into any valid customer account with the master password.
-	
-
-
 
 ## License
 
