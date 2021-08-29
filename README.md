@@ -9,10 +9,37 @@
   <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
 </div>
 
+
+## Table of contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+
+## Installation
+
+```
+composer require pragnesh/masterpassword
+bin/magento module:enable Pragnesh_MasterPassword
+bin/magento setup:upgrade
+```
+
+## Configuration
+
+After enable this module on store. There need to do some configuration. 
+
+Step 1 : 
+	Admin > System > Configuration > Customer > Master Password Configuration
+
+	Enable Module: Yes
+	Set Password : <password>
+
+
 ## License
 
 The MIT License (MIT)
-Copyright (c) 2015 Peter Jones
+Copyright (c) 2021 Pragnesh Boghani
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
