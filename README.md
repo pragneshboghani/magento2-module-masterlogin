@@ -3,11 +3,13 @@
 <div align="center">
   <p>Using this Magento module developers can log in to any customer account using a configured password.</p>
   <img src="https://img.shields.io/badge/magento-^2.3-brightgreen.svg?logo=magento&longCache=true&style=flat-square" alt="Supported Magento Versions" />
-  <a href="https://packagist.org/packages/pragnesh/masterpassword" target="_blank"><img src="https://img.shields.io/packagist/v/pragnesh/masterpassword.svg?style=flat-square" alt="Latest Stable Version" /></a>
+  [![Latest Stable Version](http://poser.pugx.org/pragnesh/masterpassword/v)](https://packagist.org/packages/pragnesh/masterpassword)
   <a href="https://packagist.org/packages/markshust/magento2-module-extrabodyclasses" target="_blank"><img src="https://poser.pugx.org/pragnesh/masterpassword/downloads" alt="Composer Downloads" /></a>
   <a href="https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity" target="_blank"><img src="https://img.shields.io/badge/maintained%3F-no-brightgreen.svg?style=flat-square" alt="Maintained - No" /></a>
   <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
 </div>
+
+[![Latest Stable Version](http://poser.pugx.org/pragnesh/masterpassword/v)](https://packagist.org/packages/pragnesh/masterpassword)
 
 
 ## Table of contents
