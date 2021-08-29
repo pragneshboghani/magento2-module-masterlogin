@@ -3,14 +3,12 @@
 <div align="center">
   <p>Using this Magento module developers can log in to any customer account using a configured password.</p>
   <img src="https://img.shields.io/badge/magento-^2.3-brightgreen.svg?logo=magento&longCache=true&style=flat-square" alt="Supported Magento Versions" />
-  <a href="https://packagist.org/packages/pragnesh/masterpassword" target="_blank"><img src="https://img.shields.io/packagist/v/pragneshboghani/magento2-module-masterlogin" alt="Latest Stable Version" /></a>
-  <a href="https://packagist.org/packages/markshust/magento2-module-extrabodyclasses" target="_blank"><img src="https://img.shields.io/packagist/dt/pragneshboghani/magento2-module-masterlogin" alt="Composer Downloads" /></a>
-  <a href="https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity" target="_blank"><img src="https://img.shields.io/badge/maintained%3F-no-brightgreen.svg?style=flat-square" alt="Maintained - Yes" /></a>
-  <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+  
+[![Latest Stable Version](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/v)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![Total Downloads](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/downloads)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![Latest Unstable Version](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/v/unstable)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![License](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/license)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin)
+
 </div>
 
 
-[![Latest Stable Version](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/v)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![Total Downloads](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/downloads)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![Latest Unstable Version](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/v/unstable)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![License](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/license)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin)
 
 
 ## Table of contents
