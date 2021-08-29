@@ -3,7 +3,7 @@
 <div align="center">
   <p>Using this Magento module developers can log in to any customer account using a configured password.</p>
   
-[![Latest Stable Version](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/v)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) <img src="https://img.shields.io/badge/magento-^2.3-brightgreen.svg?logo=magento&longCache=true&style=flat-square" alt="Supported Magento Versions" /> [![Total Downloads](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/downloads)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![License](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/license)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin)
+<img src="https://img.shields.io/badge/magento-^2.3-brightgreen.svg?logo=magento&longCache=true&style=flat-square" alt="Supported Magento Versions" /> [![Latest Stable Version](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/v)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![Total Downloads](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/downloads)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin) [![License](http://poser.pugx.org/pragneshboghani/magento2-module-masterlogin/license)](https://packagist.org/packages/pragneshboghani/magento2-module-masterlogin)
 
 </div>
 
